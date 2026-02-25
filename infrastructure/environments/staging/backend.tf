@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "devops-assignment-tf-state"
+    bucket  = "dharani-devops-tf-state"
     prefix  = "staging"
   }
 }
